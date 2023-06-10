@@ -1,0 +1,50 @@
+.second-nav{
+  width: 100%;
+}
+.second-nav__background {
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../assets/coffee-circle.jpg");
+}
+.second-nav__background h1 {
+  color: white;
+  display: inline-block;
+  padding: 0.1rem 3rem 5rem;
+  background-color: var(--graphite);
+}
+.second-nav__list{
+  padding: 0;
+  background-color: var(--graphite);
+}
+.second-nav__list li, .second-nav__list li a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.bg--pink{
+    background-color: var(--nitro-pink);
+}
+
+.bg--grey{
+  background-color: var(--light-grey);
+}
+
+
+.menu__row h2, .menu__card h3{
+    text-align: center;
+}
+
+.menu__card p{
+  font-style: italic;
+  width: 42%;
+  text-align: center;
+}
+
+.menu__card .price{
+  display: block;
+  color: var(--nitro-blue);
+  text-align: center;
+}

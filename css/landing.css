@@ -1,0 +1,46 @@
+.products{
+    text-align: center;
+}
+div{
+    margin-bottom: 2.5rem;
+}
+
+.hero, .hero > :first-child{
+    background-color: var(--nitro-pink);
+    display: flex;
+    min-height: 400px;
+    height: 100dvh;
+    max-height: 800px;
+}
+
+.hero__headline{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card{
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    width: 330px;
+    box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
+    margin-left: 1.25rem;
+    padding: 2.5rem;
+}
+.card img{
+    height: 17.5rem;
+}
+.card__price{
+    color: var(--nitro-blue);
+    font-size: 2rem;
+}
+
+.discounts{
+    text-align: center;
+    padding: 1.25rem;
+    width: 90%;
+    font-size: 2.8125rem;
+    color: white;
+    background-color: var(--graphite);
+}
