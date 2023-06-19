@@ -19,7 +19,9 @@ button {
 }
 
 footer, .footer {
+  display: flex;
   background-color: var(--nitro-pink);
+  justify-content: space-between;
 }
 footer__socials ul, .footer__socials ul {
   padding: 0;
@@ -76,7 +78,7 @@ footer__socials img, .footer__socials img {
 }
 
 .margin {
-  width: clamp(16rem, 80vw, 1200px);
+  width: clamp(16rem, 90%, 1200px);
   margin: 6rem auto;
 }
 

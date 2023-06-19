@@ -1,5 +1,7 @@
 footer, .footer {
+    display: flex;
     background-color: var(--nitro-pink);
+    justify-content: space-between;
   &__socials ul {
     padding: 0;
     list-style: none;
@@ -9,5 +11,5 @@ footer, .footer {
   }
   &__socials img {
     width: 50px;
-  }  
+  }
 }
