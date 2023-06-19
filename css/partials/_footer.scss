@@ -1,0 +1,13 @@
+footer, .footer {
+    background-color: var(--nitro-pink);
+  &__socials ul {
+    padding: 0;
+    list-style: none;
+  }
+  &__socials ul li {
+    display: inline-block;
+  }
+  &__socials img {
+    width: 50px;
+  }  
+}

@@ -1,0 +1,56 @@
+@use './variables';
+@use './btn';
+@use './footer';
+@use './primary-nav';
+@use './margin';
+
+img, svg, picture{
+  width: 100%;
+  display: block;
+}
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  font-optical-sizing: auto;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Open Sans";
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+section{
+  padding: 8rem 0;
+}
+
+h1,
+h2 {
+  font-weight: 300;
+  font-size: 3.75rem;
+  margin-bottom: 1rem;
+}
+
+h3,
+.primary-nav__heading,
+a .primary-nav__heading {
+  font-weight: 300;
+  font-size: 2.063rem;
+}
+
+p {
+  font-size: 1.125rem;
+  margin: 1rem 0;
+}
+
+a:link {
+  color: inherit;
+  text-decoration: none;
+}

@@ -1,0 +1,92 @@
+@use "./partials/global";
+@use "./partials/card";
+
+.product {
+    background: var(--light-grey) ;
+  &__menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 4rem;
+    column-gap: 4rem;
+  }
+  & h2, &__button{
+    text-align: center;
+  }
+}
+
+.hero {
+    display: flex;
+    background-color: var(--nitro-pink);
+    &__content{
+        display: flex;
+        justify-content: space-between;
+    }
+  & > :first-child {
+    background-color: var(--nitro-pink);
+    display: inherit;
+  }
+  &__headline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 25rem;
+    column-gap: 10rem;
+  }
+  &__image {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    flex-grow: 1;
+  }
+  &__image__display{
+    height: auto;
+    min-width: 300px;
+    max-width: 400px;
+  }
+  &__icon > :first-child{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    & img{
+        width: 50px;
+    }
+  }
+
+  &__can{
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0;
+    height: 100%;
+    background-size: cover;
+    animation: background-rotate 2s infinite;
+    transition: 0.3s ease-in-out;
+    &__inner{
+        height: auto;
+        width: auto;
+        text-align: center;
+    }
+  }
+}
+
+.discounts {
+  text-align: center;
+  padding: 1.25rem;
+  width: 90%;
+  font-size: 2.8125rem;
+  color: white;
+  background-color: var(--graphite);
+}
+
+@keyframes background-rotate {
+    from{
+        rotate: 0deg;
+    }
+    to{
+        rotate: 360deg;
+    }
+}

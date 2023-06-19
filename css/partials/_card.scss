@@ -1,0 +1,46 @@
+.card{
+    background-color: var(--card-background);
+    border-radius: 10px;
+    display: inline-flex;
+    flex-direction: column;
+    width: 330px;
+    height: 440px;
+    box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    &__img{
+        margin: auto;
+        height: 17.5rem;
+        width: auto;
+        padding: 1rem;
+    }
+    &__title{
+        font-size: 1.75rem;
+        margin: 0;
+    }
+    &__price{
+        color: var(--nitro-blue);
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    &__subtitle{
+        color: var(--grey);
+    }
+    &__content{
+        width: 100%;
+        display: inherit;
+        flex-direction: row;
+        padding: 1rem;
+        background-color: var(--nitro-pink);
+    }
+    &__content > :first-child{
+        align-self: flex-end;
+        align-items: flex-start;
+        flex-grow: 1;
+    }
+    &__content > :first-child p{
+        margin: 0;
+    }
+    &__price{
+        display: flex;
+    }
+}
