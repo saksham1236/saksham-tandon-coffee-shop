@@ -19,17 +19,24 @@
     <!-- header section -->
     <header>
       <nav class="primary-nav">
-        <img
-          src="../assets/coffee-beans-logo-and-footer.svg"
-          alt="coffee bean logo "
-        />
-        <a href = "index.html"><h1>Nitro Coffee</h1></a>
-        <ul class = "primary-nav__list">
+        <div class="primary-nav__logo">
+          <a href="index.html">
+            <img
+              src="../assets/coffee-beans-logo-and-footer.svg"
+              alt="coffee bean logo "
+            />
+            <h1 class="primary-nav__heading">nitro</h1>
+          </a>
+        </div>
+        <ul class="primary-nav__list">
           <li><a href="index.html">About</a></li>
-          <li><a href="./pages/menu.html">Menu</a></li>
-          <li><a href="./pages/menu.html">Shop Now</a></li>
+          <li><a href="../pages/menu.html">Menu</a></li>
+          <li class="primary-nav__shopBtn">
+            <a href="../pages/menu.html" class="">Shop Now</a>
+          </li>
         </ul>
       </nav>
+    </header>
     <!-- main section -->
     <main>
       <!-- secondary Nav -->
